@@ -1,0 +1,10 @@
+
+language: ruby
+dist: xenial
+arch: ppc64le
+
+install: skip
+script:
+- clang --version
+
+
